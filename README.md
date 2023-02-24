@@ -2,7 +2,8 @@
 
 This small, simple project is designed to practice and use skills.
 The program supports all CRUD operations. Employee data is received and written to a local database.
-
+Users have 3 roles: Manager, Employee, HR. 
+Usernames, passwords and roles are stored in the database tables: authorities and users
 
 Technology stack:
 - Spring MVC
@@ -15,23 +16,36 @@ Technology stack:
 <br>
 - Service Layer, DAO
 <br>
-- XML-file configuration
-
+- Java Based Configuration
+- Spring Security Form Based Authentication
 
 <br>
 <br>
 
-- Home page:
+If an Employee signs in, the following columns are available to him:
+- Name, Surname, Department, Role
 <br>
 
-![2023-02-08_22-05-36](https://user-images.githubusercontent.com/100590447/217631664-199adfe3-7248-4da1-891d-3a35d67b2d2a.png)
+![2023-02-24_22-38-59](https://user-images.githubusercontent.com/100590447/221275365-0be00867-584b-424b-9f67-648b02dc357a.png)
 
-- Add Employee page:
+If a HR employee signs in, the following columns are available to him:
+- Name, Surname, Department, Role, Salary
+- Ability to add, update or remove any employee
 <br>
 
-![2023-02-08_22-08-31](https://user-images.githubusercontent.com/100590447/217628230-23d500a4-45ba-425e-9feb-f4d63b90c7b3.png)
-
-- Update Employee page:
+![2023-02-24_22-42-01](https://user-images.githubusercontent.com/100590447/221277032-439fb98f-9285-49d4-ac5e-27f260417933.png)
+<br>
+![2023-02-24_22-45-15](https://user-images.githubusercontent.com/100590447/221277063-dd390101-74b4-4d5f-9a30-97b5d0340293.png)
+<br>
+![2023-02-24_22-45-42](https://user-images.githubusercontent.com/100590447/221277089-f3259f24-c568-4b0b-8285-edc8c61d5bef.png)
 <br>
 
-![2023-02-08_22-09-48](https://user-images.githubusercontent.com/100590447/217628503-26d9bd70-d1fe-462f-b661-481977f81d3b.png)
+If a Manager signs in, the following columns are available to him:
+- Name, Surname, Department, Role, Bonus, Salary
+- Ability to set a bonus for any employee
+<br>
+
+![2023-02-24_22-53-19](https://user-images.githubusercontent.com/100590447/221278003-59caf1f2-bd84-4919-909f-3fc148427a41.png)
+<br>
+![2023-02-24_22-54-05](https://user-images.githubusercontent.com/100590447/221278045-8a275462-2ea0-4724-b13d-3b73955d8f0e.png)
+
