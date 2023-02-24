@@ -18,6 +18,7 @@ Technology stack:
 - Service Layer, DAO
 <br>
 - Java Based Configuration
+<br>
 - Spring Security Form Based Authentication
 
 <br>
