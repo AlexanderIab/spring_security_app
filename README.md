@@ -2,8 +2,9 @@
 
 This small, simple project is designed to practice and use skills.
 The program supports all CRUD operations. Employee data is received and written to a local database.
-Users have 3 roles: Manager, Employee, HR. 
-Usernames, passwords and roles are stored in the database tables: authorities and users
+<br><br>
+Users have 3 roles: Manager, Employee, HR.<br>
+Usernames, passwords and roles are stored in the database tables: authorities and users. The password is stored in the database in encrypted form (Bcrypt).
 
 Technology stack:
 - Spring MVC
