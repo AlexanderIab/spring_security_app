@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h2>Add new employee</h2>
+<h2>Set bonus</h2>
 <br>
 <form:form action="save-employee" modelAttribute="employee">
 
